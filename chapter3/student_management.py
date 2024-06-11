@@ -103,7 +103,7 @@ def run_chat(messages, tools):
             messages=messages,
             tools=tools,
             tool_choice="auto",
-            temperature=1,
+            temperature=0,
         )
 
         response_message = response.choices[0].message
